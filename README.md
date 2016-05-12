@@ -1,5 +1,5 @@
 # SymfonySecurityBridgeBundle
-> Symfony bundle that glues UserBundle and DoctrineORMBridge
+> Symfony bundle that glues UserBundle and SymfonySecurityBridge
 
 [![Build Status](https://travis-ci.org/BenGorUser/SymfonySecurityBridgeBundle.svg?branch=master)](https://travis-ci.org/BenGorUser/SymfonySecurityBridgeBundle)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/BenGorUser/SymfonySecurityBridgeBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/BenGorUser/SymfonySecurityBridgeBundle/?branch=master)
