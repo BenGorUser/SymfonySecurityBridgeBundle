@@ -31,6 +31,6 @@ class SymfonySecurityBridgeExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-        $container->setParameter('bengor_user.config', $config);
+        // $container->setParameter('bengor_user.config', $config);
     }
 }
