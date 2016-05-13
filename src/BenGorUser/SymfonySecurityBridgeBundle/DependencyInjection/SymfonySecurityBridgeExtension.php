@@ -12,7 +12,6 @@
 
 namespace BenGorUser\SymfonySecurityBridgeBundle\DependencyInjection;
 
-use BenGorUser\UserBundle\DependencyInjection\Configuration;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 
@@ -28,9 +27,5 @@ class SymfonySecurityBridgeExtension extends Extension
      */
     public function load(array $configs, ContainerBuilder $container)
     {
-        $configuration = new Configuration();
-        $config = $this->processConfiguration($configuration, $configs);
-
-        // $container->setParameter('bengor_user.config', $config);
     }
 }
