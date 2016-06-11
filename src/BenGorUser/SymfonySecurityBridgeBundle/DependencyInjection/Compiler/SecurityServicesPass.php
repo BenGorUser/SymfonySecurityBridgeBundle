@@ -56,7 +56,7 @@ class SecurityServicesPass implements CompilerPassInterface
             )->setPublic(false);
 
             $container->setAlias(
-                'bengor_user.symfony_' . $key . '_password_encoder',
+                'bengor_user.' . $key . '.symfony_password_encoder',
                 'bengor.user.infrastructure.security.symfony.' . $key . '_password_encoder'
             );
         }

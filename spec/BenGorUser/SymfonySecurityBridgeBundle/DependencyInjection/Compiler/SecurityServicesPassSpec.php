@@ -126,7 +126,7 @@ class SecurityServicesPassSpec extends ObjectBehavior
         )->shouldBeCalled()->willReturn($definition);
 
         $container->setAlias(
-            'bengor_user.symfony_user_password_encoder',
+            'bengor_user.user.symfony_password_encoder',
             'bengor.user.infrastructure.security.symfony.user_password_encoder'
         )->shouldBeCalled();
 
